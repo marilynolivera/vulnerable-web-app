@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: "GinoDevOps/vulnerable-web-app"
+  IMAGE_NAME: "marilynolivera/vulnerable-web-app"
 
 jobs:
   amd64:
