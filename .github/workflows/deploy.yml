@@ -1,11 +1,13 @@
 # For more details, read this: https://coolify.io/docs/github-actions
-name: Build Static Image
+name: Despliegue app - Examen Practico Hackademy
 on:
   push:
     branches: ["main"]
+  workflow_dispatch: #permite ejecucion manual
+
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: "GinoDevOps/vulnerable-web-appy"
+  IMAGE_NAME: "GinoDevOps/vulnerable-web-app"
 
 jobs:
   amd64:
