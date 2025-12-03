@@ -1,4 +1,4 @@
-FROM arm64v8/node:8
+FROM node:8-slim
 
 
 COPY . .
