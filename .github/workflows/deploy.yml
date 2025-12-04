@@ -10,7 +10,7 @@ env:
   IMAGE_NAME: "marilynolivera/vulnerable-web-app"
 
 jobs:
-  amd64:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
