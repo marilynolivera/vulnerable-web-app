@@ -9,4 +9,5 @@ EXPOSE 8080
 
 #ENTRYPOINT ["npm", "start"]
 
-CMD node server.js
+ENTRYPOINT [] # Elimina el entrypoint de node:8
+CMD ["node", "server.js"]
